@@ -1,0 +1,79 @@
+body {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cdn.wallpapersafari.com/45/26/HjBLUN.jpg');
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+
+}
+
+.containerr {
+
+    height: 90vh;
+    width: 100%;
+}
+
+.pic {
+    height: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 30px;
+}
+
+.text {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 100px !important;
+    margin-right: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.text h1 {
+    color: black;
+    font-weight: 500;
+}
+
+.img1 {
+    width: 250px;
+    height: 250px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.login {
+    background: transparent;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: -90px;
+
+}
+
+.signin {
+    background: transparent;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.loginpage {
+    height: 100vh;
+}
